@@ -11,8 +11,8 @@ function Main(props) {
   };
 
   return (
-    <div className="main w-60 bg-success ">
-      <div className="content d-flex mt-3 mx-3 ">
+    <div className="main bg-success ">
+      <div className="content d-flex mt-3  ">
         <button className="btn bg-light" onClick={style}>
           Side
         </button>
