@@ -1,0 +1,23 @@
+.sidebar {
+  width: 20%;
+  z-index: 4;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh;
+    background-color: blue !important;
+  }
+}
+
+/* @media (max-width: 300px) {
+  .sidebar {
+    width: 100% !important;
+    background: #000 !important;
+    display: none;
+  }
+}  */

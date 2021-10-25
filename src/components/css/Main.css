@@ -1,0 +1,34 @@
+.main {
+  width: 80%;
+  position: relative;
+  z-index: 3;
+  height: 100vh;
+}
+.content {
+  justify-content: space-around;
+  /* margin-top: 200px; */
+}
+
+@media (max-width: 600px) {
+  .main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+  }
+}
+/* @media (max-width: 600px) {
+  .main {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; */
+/* } */
+/* }= */
+/* @media (max-width: 300px) {
+  .main {
+    width: 100vw;
+    background: #000 !important;
+    display: none;
+  }
+} */
