@@ -12,7 +12,7 @@ function Sidebar(props) {
   const [errDate, setErrDate] = useState("");
 
   // setNumber(event.target.value);
-  const handleChange = ({ target: { value, name } }) => {
+  const handleChange = ({ target: { name, value } }) => {
     if (name === "number") {
       setNumber(value);
       if (value < 10) {
@@ -67,7 +67,7 @@ function Sidebar(props) {
           />
         </div>
 
-        <p>{errnumber}</p>
+        <p className="text-center bg-warning p-2 my-2">{errnumber}</p>
         <div className="form-group">
           <input
             className="form-control"
@@ -77,8 +77,8 @@ function Sidebar(props) {
             onChange={handleChange}
           />
         </div>
-        <br />
-        <p>{errDate}</p>
+
+        <p className="text-center bg-warning p-2 my-2">{errDate}</p>
         <button type="submit" className="btn btn-danger" onClick={handleSubmit}>
           submit
         </button>

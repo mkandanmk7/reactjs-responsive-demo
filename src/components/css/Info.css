@@ -1,16 +1,26 @@
 .info {
   width: 20%;
+  max-width: auto;
   position: absolute;
   top: 0;
   right: 0;
   height: 100%;
-  transition: all 0.3s linear;
-  animation: smooth 0.5s linear;
+  transition: all 1s linear;
+
+  /* animation: smooth 0.5s linear; */
 }
-@media (max-width: 900px) {
+
+@media (max-width: 600px) {
   .info {
-    display: none;
+    transform: translateX(100%);
   }
 }
+
+/* @media (max-width: 600px) {
+  .info {
+    transform: translateX(170%); */
+/* display: none; */
+/* }
+} */
 /* @keyframes (smooth) {
 } */
